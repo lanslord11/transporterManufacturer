@@ -1,0 +1,23 @@
+.loginBox {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loginBox .MuiSelect-select {
+  margin-top: 1vh;
+  text-align: left;
+}
+
+.loginBox > * {
+  width: 350px;
+}
+
+.loginBox > *:first-child > *,
+.loginBox > *:nth-child(2) > * {
+  margin: 1vh 0;
+  width: 350px;
+}
